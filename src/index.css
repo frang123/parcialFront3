@@ -68,13 +68,19 @@ header p span {
   color: rgb(155, 0, 0);
   background-color: rgb(255, 178, 178);
 }
-.producto button{
+#button-open{
   padding: 5px;
   text-transform: uppercase;
   background-color: black;
   color: whitesmoke;
   border-radius: 10px;
+  cursor:pointer;
   }
-.button-sold-out{
+#button-sold-out{
   background-color: rgb(255, 178, 178);
+  padding: 5px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  border-radius: 10px;
+  cursor:not-allowed;
 }

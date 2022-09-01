@@ -27,10 +27,10 @@ const restarStock= () => {
       </p>
       {stock===0?
       <> <h5>En stock:<span className="span-sold">AGOTADO</span></h5>
-      <button  disabled><span className="span-sold">AGOTADO</span></button>
+      <button  id="button-sold-out" disabled><span className="span-sold">SIN STOCK</span></button>
       </> : <>
       <h5>En stock:<span>{stock}</span></h5>
-      <button onClick={()=>{restarStock();}}>Comprar</button>
+      <button id="button-open" onClick={()=>{restarStock();}}>Comprar</button>
        </>}
     </div>
   )
